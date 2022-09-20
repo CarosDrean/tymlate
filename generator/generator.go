@@ -129,7 +129,7 @@ func (g Generator) Generate() error {
 		return nil
 	})
 	if err != nil {
-		return fmt.Errorf("generator.Generate().filepath.Walk()")
+		return fmt.Errorf("generator.Generate().filepath.Walk(): %w", err)
 	}
 
 	return nil
