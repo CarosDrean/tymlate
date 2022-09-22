@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/sprig"
+	"github.com/Masterminds/sprig/v3"
 	"gopkg.in/yaml.v3"
 
 	"github.com/CarosDrean/tymlate/config"
